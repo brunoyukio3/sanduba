@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="prof lobo - FAKERTREE - pagina de contatos matheus lobo">
+    <meta name="author" content="Matheus Lobo">
+    <title>Página Responsiva com Menu Sanduíche</title>
+    <!-- TEXTO AQUI Ξ ☻♥ -->
+    <!-- Favicon / Trocar a URL -->
+    <link rel="shortcut icon" href="imagens/ico_logo.png" />
+
+    <link rel="stylesheet" href="css/estilo.css">
+      <!-- Custom font styles for this template // Google Font -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Web Com menu Responsivo Sanduiche</h1>
+        <nav>
+            <div class="menu-toggle" id="menu-toggle">
+                ☰ 
+            </div>
+            <ul id="menu"><!-- semantica de estrutura de codigo de seção de navegação -->
+                <li><a href="">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servico">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>        
+         <!-- o main é o conteudo principal do do doc, só pode ter 1 um main 
+         no codigo, os outros podem ser article ou section -->
+         <section>
+            <h2>Bem-vindo!</h2>
+            
+            <h3>Seguinte....</h3>
+            <img class="foto.j">
+            <p>Este é um exemplo de uma página web responsiva com um menu sanduíche de frango.
+                Redimensione a janela para ver como o layout se ajusta a diferentes tamanhos de tela.</p>
+            <p>Este é um exemplo de uma página web responsiva. Redimensione a janela para ver como o layout se ajusta a diferentes tamanhos de tela.</p>
+        </section>
+                <!-- Conteúdo principal da página -->
+                <article>
+                    <h2>Artigo Principal</h2>
+                    <p>Texto do artigo...</p>
+                </article>
+        
+                <section id="home">
+                    <h2>Outra Seção Importante</h2>
+                    <p>Conteúdo da outra seção...</p>
+                </section>
+                <section id="sobre">
+                    <header>
+                        <h2>Sobre mim</h2>
+                    </header>
+                    <article>
+                        <h3>Historia de vida</h3>
+                        <p>Descrição do primeiro sobre.</p>
+                    </article>
+                    <article>
+                        <h3>Academica</h3>
+                        <p>Descrição do segundo sobre.</p>
+                    </article>
+                </section>
+                <section id="servicos">
+                    <header>
+                        <h2>Nossos Serviços</h2>
+                    </header>
+                    <p>Aqui você encontra informações sobre os serviços que oferecemos.</p>
+                </section>
+
+                <section id="contato">
+                    <header>
+                        <h2>Contato</h2>
+                    </header>
+                    <p>Entre em contato conosco através do formulário abaixo.</p>
+                    <a href="https://wa.me/5511942109151?text=Oi%20Prof%20Lobo%20,%20Tudo%20Bem%20?" target="_blank" class="botao">
+                        <p><img src="/imagens/whatsapp.png" alt="instagram" height="10%" width="10%" >WHATSAPP diga Oi</p>
+                    </a>
+                    <a href="https://github.com/proflobo" target="_blank" class="botao">
+                        <p><img src="/imagens/github.png" alt="instagram" height="10%" width="10%" >GITHUB Professor</p>
+                    </a>
+                </section>
+        <section id="login">
+            <form action="teste_login.php" method="POST">
+                <p>ENTRAR</p>
+                <label for="login">Login: </label><input type="text" name="login"><br>
+                <label for="senha">Senha: </label><input type="password" name="senha"><br>
+                <button type="submit">Entrar</button><br>
+
+                <a href="cadastrar.php">Ainda não tenho conta.</a>
+            </form>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&nbsp;</p>
+        <p>
+            <a href="#top"><i class=""></i> Voltar ao inicio</a>
+        </p>
+        <p>Todos os direitos reservados a <a href="www.proflobo.com.br">Prof LOBO</a> 2024 Meu Site Responsivo</p>
+    </footer>
+    <script src="js/menu.js"></script>
+</body>
+
+</html>

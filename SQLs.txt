@@ -1,0 +1,12 @@
+CREATE TABLE produtos (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  nome VARCHAR(255) NOT NULL,
+  tipo VARCHAR(255) NOT NULL,
+  descricao TEXT NOT NULL,
+  valor_unitario DECIMAL(10, 2) NOT NULL,
+  quantidade_estoque INT NOT NULL,
+  cor VARCHAR(255) NOT NULL,
+  disponivel TINYINT(1) NOT NULL DEFAULT 1,
+  link_imagem VARCHAR(255) NOT NULL
+);
+

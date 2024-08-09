@@ -1,0 +1,118 @@
+/* styles.css */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.678);
+    color: white;
+  }
+  
+  header {
+    background-color: #b3dbd8;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  nav {
+    position: relative;
+  }
+  
+  .menu-toggle {
+    display: none;
+    font-size: 2em;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #10fdf1;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+  .foto_j{
+    width: 80%;
+    height: 80%;
+  }
+    nav ul {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+  
+    nav ul.showing {
+        display: flex;
+    }
+  
+    footer {
+        position: static;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+  
+    main {
+        padding: 10px;
+    }
+  }
+
+  /* Sections com espaçamento fixo */
+  section {
+    width: 80%; /* 80% da largura do contêiner pai */
+    min-height: 20em; /* Altura mínima de 20 vezes o tamanho da fonte atual */
+  }
+  .section4 {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  .section1 {
+    width: 80%;
+    min-height: 200px;
+  }
+  
+  .section2 {
+    width: 50%;
+    height: 400px;
+  }
+  
+  .section3 {
+    max-width: 600px;
+    min-height: 150px;
+  }
